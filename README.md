@@ -1,5 +1,9 @@
 # LLM-Based Personalized Feedback Generator for K-12 Short-Answer Questions
 
+**Built with:**
+
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20Transformers-FFD21E?style=for-the-badge) ![NLTK](https://img.shields.io/badge/NLTK-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Google Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)
+
 A research project investigating whether **small, open-source language models** can generate meaningful, age-appropriate feedback for K-12 students (Grades 3–8) on incorrect Math/Science short-answers — without relying on large, expensive models like GPT-4.
 
 > 📄 **Full methodology, results, and analysis are in [`NLP_Project_Paper.pdf`](./NLP_Project_Paper.pdf)** — this README only summarizes the key points.
@@ -21,10 +25,6 @@ Can small LLMs (under 600M parameters) generate feedback good enough to help stu
 A custom 100-sample dataset (Math + Science, Grades 3–8, 13 misconception categories, expert-authored feedback) was built for this study.
 
 **Publicly available on Kaggle:** [K-12 Student Feedback Dataset](https://www.kaggle.com/datasets/hafizabdullah66/k-12-student-feedback-dataset)
-
-## Tech Stack
-
-Python · PyTorch · HuggingFace Transformers · HuggingFace `evaluate` (ROUGE) · NLTK (BLEU) · Google Colab (T4 GPU)
 
 ## Full Details
 
