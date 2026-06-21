@@ -4,12 +4,6 @@ A research project investigating whether **small, open-source language models** 
 
 > 📄 **Full methodology, results, and analysis are in [`NLP_Project_Paper.pdf`](./NLP_Project_Paper.pdf)** — this README only summarizes the key points.
 
-## Authors
-
-- Minahil Mir
-- Wania Ahsan
-- Abdullah Qasim
-
 ## Research Question
 
 Can small LLMs (under 600M parameters) generate feedback good enough to help students — or do they fundamentally fail at this task? The study tests **4 model families across 11 configurations**: GPT-2 Small, Flan-T5 Small (zero-shot + fine-tuned), Flan-T5 Base, and mT5 Small — using ROUGE and BLEU metrics on a custom 100-sample dataset.
